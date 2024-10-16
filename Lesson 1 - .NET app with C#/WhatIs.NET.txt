@@ -1,0 +1,107 @@
+What is .NET?
+
+Is CV# a part of .NET? 
+
+How does .NET work?
+
+When someone uses the term .net, what they means greatly depends on context. .NET is a colection  of many parts and peopla that together create  a 
+powerful enviroment for building applications
+
+.NET is an ecosystem for applications development
+    The term ecosystem describes the multiple facets of an applications development enviroment and the community thata sorrounds it. These facets combine to create a compeling
+    reason to invest in learning .NET and buildinding .NET applications.
+
+    Use .NET languages and compilers to run applications in the .NET runtime
+        Software development use .NET languages like C# and F# to write source code. Each line of code they write express the instruction or cammand the computer should perform
+        while the program is running
+
+        Before Software development can run their code, they must first compile it. The .NET compile is a program that converts the source code (in any supported programming 
+        language) into a portalble language called intermediate language (IL). The .NET compile sabes the IL code into a file called .NET assembly. By compiling the code into an 
+        intermeidate format, you can use the same code base wherever you run the code, whether on Windows or Linux, or on 32-bit or 64-bit computer hardware.~
+
+        The .NET runtime is an execution enveironment for your compile .NET assembly. In other words, the .NET runtime is what executes and managges your application as it run
+        on a host operationg systems.
+
+        Fortunately, as a software developer just getting started with .NET, isn't necessary to get into detail of how these machanism work.
+    
+    Use .NET application frameworks and libraries to harnes prebuild functionality
+
+        All software is build in layer, meaning software runs at various levels of abstraction on a computer
+
+        - At lowerst level, software communicates direcly with your computer's hardware. IT controls the flow of data on the motherboard, processor, memory, and hard drives
+        - At the next level, software allow the end user to provide instruction through an operation system.
+        - At the next level, software like .NET provides a way for you to develop and run applications.
+        - At the next level, application frameworks and libraries of functionality allow you to quickly build rich applicatios with less effor than older development methods
+
+        A code library encapsulate functionality for a specific purpose into a single assembly. For .NET, thousands of libraries are available. These libraries can be first-party 
+        or third-party, and can be commercial or opens soucer. The libraries provides a vast array of functionality you can use in your applications. You merely reference those 
+        assemblies and call the methods you need. In this way, as a developer, you build on the work of other software developers. You sabe time and energy because you don't have 
+        to build and maintain every feature yourself.
+
+        An application frameworks combine several related libraries, along with starter projects, file templates, code generators, and other tools. You can use these resource to
+        build entire applications for a specific purpos.  These application frameworks are know as app models . For exemple, .NET application frameworks are aveilable for popullar
+        app models like web development, desktop and mobile development .
+
+        You can install the .NET SDK directly or by installing Visual Studio 2022. The .NET SDK preinstalls a comprehensive set of libraries and application frameworks called
+        the base class library. You can use this library of code in your programs regardles of the plataform or app models you want to build
+
+        For other third-party libraries, developers use packges managers like NuGet to find and integrate code libraries from packges repositories like NuGet Gallery.
+
+    What are the major app models?
+
+        You might woder which frameworks support which app models. Use the following table to map and app model to a .NET frameworks
+
+
+        _________________________________________________________________________________________________________________________________________________________
+       |                                                                                                                                                         |
+       |  App Model                       Framework                         Note                                                                                 |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Web                             ASP.NET Core                      The frameworks for build server-side logic                                           |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Web                             ASP.NET Core MVC                  The frameworks for build server-side logic for web pages or APIs                     |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Web                             ASP.NET Core Razor                The frameworks for building server-generated HTML.                                   |
+       |                                  Pages                                                                                                                  |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Web client                      Blazor                            Blazor is a part of ASP.NET Core. It two modes allow for either Document Object      |
+       |                                                                    Model (DOM) manipulation via sockets as a communicates vehicle for running           |
+       |                                                                    server-side code, or WebAssembly implementation for running compiled C# on a         |
+       |                                                                    browser                                                                              |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Desktop                         .NET for Mac                      Allow .NET developers o build apps for Mac devices with native UI and API access     |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Desktop                         WinForms                          A frameworks for buildinding "battleship gray" Windows-style applications.           |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Desktop                         Windows                           A framework for building dynamic desktop applications that conform  to different     |
+       |                                  Presentation                      form factor. WPF allows form elements to perform movements, fades glides, and other  |
+       |                                  Foundation (WPF)                  effects with the help of a rich library of animation                                 |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Mobile                          .NET for Android                  Allow .NET developers to build apps for Android devices with native UI and API       |
+       |                                                                    access                                                                               |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Mobile                          .NET for iOS                      Allow .NET developers to build apps for iOS and iPadOS with native UI and API        |
+       |                                                                    access                                                                               |
+       |_________________________________________________________________________________________________________________________________________________________|
+       |                                                                                                                                                         |
+       |  Multi-                          .NET MAUI                         The premier way to build apps for iOS, Android, Mac, and Windows from a single       |
+       |  plataform                                                         shared code base with native UI and acess to native APIs                             |
+       |  App UI                                                                                                                                                 |
+       |_________________________________________________________________________________________________________________________________________________________|
+
+       .NET also powers popular third-party and open-source gaming development enviroments and engines like Unity.
+
+    Use .NET tools to build .NET apps
+
+        software developers rely on tools to write code, add references to code libraries, compile code, and debug code. This section describes several .NET tools
+        you use to build .NET applications
+
+        Visual Studio 2022 is the Microsoft 
