@@ -1,0 +1,32 @@
+.NET is for projects large and small
+    You might wounder if .NET is th right ecosystem to invest your time in learning. Millions of develpers use .NET every day
+    to do amazing things. It gives them tools to build the kind of applications that matter to them
+
+    Choose .NET when productivity matters
+        After your learn how to build an appliation based on one app model, you can easily apply your learning to something else. Even if it uses A
+        different app model. For instances, after your learn how to build a web appliation, your .NET skills translate to building a mobile app.
+
+        Respurposing your knowladge reduces the time investment involved in learning a new programming model or language. Your company saves time and expese when
+        you're tasked with new challenges.
+
+    Choose .NET for enterprise-scale applications
+        .NET is popular in enterprises for several reasons. Advantages include its ecosystem and its integrations with other Microsoft products, including Azure
+        cloud service and on-premises server products. Further, .NET is a "strongly typed" system, so its avoids many of the bugs that can arise in "loosely type" systems.
+        Developers can choose to use an object-based prardigm in C#, or a functionality-based paradigm in F#. They use the languages that best fits the kind of problems
+        they need to solve.
+
+    Choose .NET for prototype, stat-ups, and small-scale applications
+        .NET is also popular for small projects because of its long history of impobements to the design of languages, APIs, and tool based on customer feedback and telemetry.
+        You can use it to develop full-featured software quickly for prototyping purposes. Furthermore, .NET can run on inexpesive hardware and cloud services. It also outperforms
+        other popular platforms, so it's a great fit for start-up businesses.
+
+    Choose .NET for cloud and AI applicantions
+        The Azure SDK for .NET allows developers to provides and manage Azure resources. Alternatively Azure App Service and Azure functions can host application built
+        using .NET languages.
+
+        ML.NET is free machine learning library for .NET languages, It enables model.based campabilities for machine learning analysis and prediction.
+
+    Choose .NET for IoT application
+        You can use .NET to build IoT applicantions for IoT devices and scenarios. IoT applicantions typically interact with sensors, displays, and input devices that require
+        the use of general-purpose I/O (GPIO) pins, serial ports, or similar hardware. For exemple, you can find libraries that work with pupular boards like Raspberry Pi and
+        HummingBoard.

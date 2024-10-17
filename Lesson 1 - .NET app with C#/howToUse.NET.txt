@@ -1,0 +1,95 @@
+How developers use .NET  to build applications
+    This section describes the workfloww of application development in .NET, and includes details about how to get started
+    building an application in .NET
+
+    Set up your development enviroment
+        The first decision developers make is to select the tools they use to create their applications. In other words, they select their development enviroment. the decision
+        is typically based on whether they prefer a more visual workflow that features a graphical user interface. Or, whether they prefer a command-line interface where they rely
+        almost exclusively on the keyboard to navigate the development enviroment and make commands.
+
+        For developers who prefer a visual enviroment, Visual Studio 2022 is the best choice. As you might guess, the comprehensive and visual nature of Visual Studio 2022 requires
+        time, bandwidth, and disk space to download and install the program. However, some beginners find it to be the easiest way to get started. Depending on the speed of your
+        internet connection, the installation can take 15 minutes or more.
+
+        The Visual Studio intaller in Visual Studio 2022 gives you options in the form of workloads. A workload is a collection of frameworks, libraries, and other tools that work
+        together to build a specific app model. Based on what  you learned in the previous unit you want to make sure that you install the workload to build new applications for that
+        app model.
+
+        If you're just getting started, the ASP.NET and web development workload installs the .NET SDK and other software development kits (SDKs) for web development with .NET. The
+        .NET SDK contains all the libraries, tools, and templates you need to get started writing code.
+
+        If you prefer a command-line environment, separately download and install Visual Studio Code and the .NET SDK. This choice is popular for beginners who want to get started 
+        quickly. Both tools require less bandwidth to download.
+
+    Get started
+        Typically, software-developers projects begin with a set of requirements. These requirements affect choices for the app model. For exemple, the pp model you choose 
+        could be a web, desktop, or mobile application, or a background process.
+
+        When using either Visual Studio 2022 or the .NET CLI, you typically begin by creating a new project based on project templates. You can choose from many project templates 
+        Project templates:
+
+            - Generate folders and files based on templates and thename of the project you define
+            - Add references to commonly used libraries that you app model framework require.
+            - Provide required code that  allows you to run the application and see a tiny sample so you can confirm the cade compiles.
+            - Sometimes include instructions in the code. These instructions guide you to modify the sample application an make it your own
+
+        In the visual studio 2022, the New Project dialog box helps you visually choose an application model from a set of installed templates, or you can choose from many community
+        contributions. In the .NET CLI, you choose a new project template by using the dotnet new' command
+
+    Build functionality~
+        Next, you begin writing the logic for you application. You add reference to code libraries when you need to do special task lisst:
+            - Connecting to network Resources
+            - Accessing a database to store or retrive data
+            - Converting data from one format into anoter
+            - Adding logging to diagnose problems with your application
+
+        In some cases, the code library you wanto use already exist on your local hard drive, because they were installed along with the .NET SDK
+
+        In other cases, the developers use the NuGet package manager to download and create references to the assembly libraries. To retieve theses resources - depending
+        on your development enviroment - you can use Visual Studio NuGet package Manager dialog box, or you can use the .NET CLI's command-Line Interface.
+
+    Compile and run your code application
+        When build new functionality, you create your code and run it often. This workflow allows you to assess what work correctly and what needs revisions. Both the visual
+        approuch and the command-line approach use simples commands that make the workflow easy to follow.
+
+        Code syntax is considered incorrect when the syntax doesm't follow the rules of the languagess. When the syntax is wrong the .NET compillers is for you language throw a 
+        compilation error. The compiler doesnot continue until you correct the syntax problem.
+
+        Sometimes the code can be compled becuases it follow the syntax rules, bu the application's logic has problems. If the logic prevents the .NET runtime from running a command,
+        the program "crashes". The .NET runtime the removes the program from the computer's memory. These errors are called runtime erros or exceptions
+
+        Some logic errors don't result in a "crash". But they also dont produce the result your user expect. You can remedy these errors only by testing and debugging your application.
+
+    Debug you application
+        As you build your software, you run the application to gauge whether it meets your requirements and expectations. You might discover a bug in your application, but you're not
+        sure why it happen or how to fix it.
+
+        When you debug, you watch your application to gauge whether it meets your requirements and exectations. You might discover a bug in your application, but you're not sure why
+        it happens or how to fix it.
+
+        When you debug, you watch your application as it runs to understand what's going on. You can set breakpoint that pause the application and allow you to follow the code as
+        it runs, line by line. You can changes the value of a variable, and so on.
+
+        Both the visual and the command-line allow you to observe and take control of running the application. Use this functionality to see what's going on in you applications
+        as it's running
+
+    Distribute the application
+        When the application is ready to release, you create a release version of the build. In a release version, you remove the code required for debugging. Again, in both
+        visual and the command-line tools, you can compile a release version.
+
+        To run the release version, you must first install the .NET runtime on the destination computer. That computer runs your compiled .Net assembly
+
+How .NET works ate runtime
+    Afte you install your application's .NET assembly and the .NET runtime on the destination computer, you can run your application.
+
+    The .NET runtime is like a protective bubble that provides a run enviroment for your application. The .NET runtime:
+
+        -Compiles the intermediate code into a binary format the first time the program runs. The bimary format is specific to the platform and achitecture(for exemple,:
+        64-bit Windows) on the computer where ir's running.
+        -Locates the program's entry point and begins running each instruction in the proper sequence.
+         -Manages computers resource like memory and network access. When your hear that the .NET runtime "manages memory", that means it works with the operation system to
+         provision memory for your application. When your applicantions no longer needs the data stored in memory, a garbage-collector feature release that memory back to the
+         operation system without any instructions from the software developer
+        - Secures the user's computer from software that has pottentially malicious intent. It also provides a layer of isolation between applications.
+        
+         

@@ -164,4 +164,34 @@ powerful enviroment for building applications
          commercially friendly, open-source ecosystem around the .NET development platform, In this repository, you can share your unique perspective and voice to help others
          learn
 
-    
+    How does the .NET ecosystem compare to others?
+        If you're familiar with the software development world, you might wonder how the .NET ecosystem compares to others. Frankly, other ecosystems can make similar claims
+        or many statements made so far in this unit.
+
+        However, one of the most distinctive features of .NET is that its ongoing development and support comes from not only a major technology leade, but also the Community.
+        Significant portions of .NET were developed through open-source menas. Community input and contributions are both welcomed and encouraged. In fact, 87 percent of contributions
+        are outside of microsoft. Based on the community input of more than 100.000 accepted pull requests, microsoft actively moves the platform forward with feature enhancementes
+        bug fixes, and performace improvements,
+
+        Additionally, the .NET ecosystem has momentum
+            - .NET  development number more than 5 Millions
+            - The result of Stack Overflow polls consistently show that .NET Core & .NET are the most loved framework.
+            - Students love .NET; 40 percent OF Developers who are new to .NET are Students
+            - The GITHUB repositories of .NET and ASP.NET are ranked among the top 30 highest-velocity open-source software (OSS) project
+            - GitHub list C# in the top fove programming languages, and the language is increasing in popularity according to the  2020 TIOBE programming community index
+            - .Net has the fastest web framework on the planet according to TechEmpower benchmarks.- An independent open-souce set of web performace benchmarks that measures
+              dozens of languages and application frameworks.
+
+        A brief history of .NET
+
+            The original .NET framework was first released in early 2002. Since then, many updates and more functionality followed. After years of enhancements and new features, the 
+            original .NET framework, especially key code libraries, grew Significantly.
+
+            After 2002, Microsoft worled to make a version of .NE that had cross-platform compatibility. The goal was to allow developers to write one code base and use it across macOS
+            Linux, and Windows operation system.
+
+            Through these efforts, .NET Core was introducted around 2014. Microsoft maintains the original .NET framework, but new features and improvemnets are reserved to .NET Core.
+            Core was later dropped from the name. The next major versions are .NET 5, .NET 6, .NET 7, .NET 8, and so on. Versions are typically releas each November.
+
+            Why is the .NET history worth  mentioning? Because you're likely to find blogs, videos, and source that targets the origina .NET Framework. In some case, the instruction or
+            code still work, but in other cases, you might need to make adjustments to fit the new .NET
